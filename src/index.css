@@ -1,2 +1,8 @@
+/* If you're loading a font from a service like Google Fonts, make sure to put the @import at the very top of your CSS file: */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap')
+
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+}
