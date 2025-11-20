@@ -4,7 +4,7 @@ import Home from "@/Home/Home";
 import Login from "@/login/Login";
 import List from "@/List/List";
 import New from "@/New/New";
-import Single from "../Single/Single";
+import Single from "@/Single/Single";
 
 export const router = createBrowserRouter([
   {
